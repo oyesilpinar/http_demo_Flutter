@@ -5,13 +5,13 @@ void main() {
   runApp(HttpApp());
 }
 
-class HttpApp extends StatelessWidget{
+class HttpApp extends StatelessWidget {
+  const HttpApp({Key key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: MainScreen(),
     );
   }
-
-
 }
